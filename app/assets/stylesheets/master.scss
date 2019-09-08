@@ -64,6 +64,11 @@ h2 {
   font-family: 'poppinslight_italic', serif;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: 'poppinsextralight', serif;
+}
+
 .next-quote {
   color: #f84342;
   font-family: 'poppinslight_italic', sans-serif;
@@ -79,4 +84,18 @@ h2 {
 
 .logo:hover {
   text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: leftl;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus ROman No9 L", Garmond, "Apple Garamond", "ITC Garamond Narrow", New Century Schoolbook", "Century Schoolbook", Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
